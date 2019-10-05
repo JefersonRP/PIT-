@@ -1,0 +1,43 @@
+-Lista las carpetas:
+ls
+
+-Te muestra la ubicación
+pwd
+
+-Inicializar el git
+git init
+
+-Verificar el estado del repositorio
+git status
+
+git config --global user.email "jorgejacinto9701@gmail.com"
+git config --global user.name "jorgejacinto"
+
+-para Salir Escape
+:wq
+
+-Se muestra los commits
+git log
+
+-Para que no muestre esa ventana
+git commit -m "Se ha agregado algo..."
+
+-Para mostrar la version actual
+git branch
+
+-Para crea nueva version
+git branch NUEVO
+
+-Para ingresar a nueva version
+git checkout NUEVO
+
+-Envio remoto
+git remote add origin https://github.com/jorgejacinto9701/gitProyecto.git
+git push -u origin master
+
+-Copiar proyecto
+git clone https://github.com/jorgejacinto9701/gitProyecto.git
+
+
+
+
